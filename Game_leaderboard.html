@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_Leaderboard.css">
+    <title>Dark Mode</title>
+</head>
+ 
+<body>
+    <h1>Game leaderboard</h1>
+     
+<p>This is a website made to contain statistics of players of the game <b><i>Quick Math</i></b></p>
+<p>(link <a href="https://github.com/szabiszekely/Quick_Math" target="_blank">here</a>)</p>
+ 
+    <h3>Light and Dark Mode</h3>
+    <button onclick="myFunction()">Switch mode</button>
+     
+    <script>
+        function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark");
+        }
+    </script>
+
+<p><a href="saját.html">Vissza a Főmenübe</a></p>
+
+
+
+<input type="file" name="inputfile"
+            id="inputfile">
+    <br>
+   
+    <pre id="output"></pre>
+      
+    <script type="text/javascript">
+        document.getElementById('inputfile')
+            .addEventListener('change', function() {
+              
+            var fr=new FileReader();
+            fr.onload=function(){
+                document.getElementById('output')
+                        .textContent=fr.result;
+            }
+              
+            fr.readAsText(this.files[0]);
+        })
+    </script>
+
+    <div>
+
+    </div>
+
+
+<p>Made possible by GeeksforGeeks: GeeksforGeeks website on<a href="https://www.geeksforgeeks.org/how-to-create-dark-light-mode-for-website-using-javascript-jquery/" target="_blank"> <i>Dark mode</i></a> and on <a href="https://www.geeksforgeeks.org/how-to-read-a-local-text-file-using-javascript/" target="_blank"><i>Text File reading</i></a></p>
+</body>
+ 
+</html>

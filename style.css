@@ -1,0 +1,72 @@
+a:link{
+    color: blue;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+ color:#0a5b94;
+ font-size: 135%;
+}
+
+
+body {
+    background-color: aqua;
+}
+h1 {
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+p {
+    color: brown;
+}
+#tittle{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.memes{
+    margin-left: auto;
+    margin-right: 150px;
+    font-size: 20px;
+}
+
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    background-color: gray;
+    border: 1px solid black;
+    border-collapse: hidden;
+    
+    width: 90%;
+}
+#Title{
+    background-color: red;
+    width: 90%;
+    text-align: center;
+    border: 1px solid black;
+}
+.others{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    background-image: url(cosmic.jpg);
+    font-size: 20px;
+    border: 1px solid black;
+    border-collapse: hidden;
+}
+.Back{
+    background-color: darkslategray;
+}
